@@ -2,6 +2,14 @@ package application;
 	
 import java.io.IOException;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;

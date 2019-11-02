@@ -51,5 +51,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DarwinSese/eclipse-workspace/assignment/libs/mysql-connector-java-8.0.18.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -17,8 +17,8 @@
             <Image url="@concert-background-02-thebeach.jpg" />
          </image>
       </ImageView>
-      <TextField layoutX="190.0" layoutY="154.0" prefHeight="44.0" prefWidth="465.0" promptText="Username" />
-      <TextField layoutX="190.0" layoutY="238.0" prefHeight="44.0" prefWidth="465.0" promptText="Password" />
+      <TextField fx:id="usernamefield" layoutX="190.0" layoutY="154.0" prefHeight="44.0" prefWidth="465.0" promptText="Username" />
+      <TextField fx:id="passwordfield" layoutX="190.0" layoutY="238.0" prefHeight="44.0" prefWidth="465.0" promptText="Password" />
       <Button id="Login" layoutX="189.0" layoutY="353.0" mnemonicParsing="false" onAction="#ProceedLogin" prefHeight="44.0" prefWidth="151.0" style="-fx-background-color: #58B747;" text="Login" textFill="WHITE" />
       <Button id="SignUp" layoutX="722.0" layoutY="14.0" mnemonicParsing="false" onAction="#SignUpPage" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #267AF7;" text="Sign Up" textFill="#f0f0f0" />
       <CheckBox layoutX="190.0" layoutY="313.0" mnemonicParsing="false" text="Remember me" textFill="WHITE" />
