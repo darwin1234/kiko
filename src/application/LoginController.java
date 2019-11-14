@@ -22,8 +22,6 @@ import javafx.stage.Stage;
 public class LoginController implements Initializable {
 
 	public TextField usernamefield;
-
-	
 	public TextField passwordfield;
 	
 
@@ -50,6 +48,10 @@ public class LoginController implements Initializable {
     		primaryStage.setScene(MainPageScene);
     		primaryStage.setResizable(false);
     		primaryStage.show();
+   
+    		//
+    		//System.gc();
+    		
         }	
 		
        

@@ -64,7 +64,7 @@ public class MainPageController implements Initializable {
 				content_1.setText(printRow.getDescription());
 				price_1.setText("PRICE: " + printRow.getPrice() + " USD");
 				location_1.setText("LOCATION: " + printRow.getLocation());
-				view_1.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(1));
+				view_1.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(printRow.getID()));
 				
 		   }else if(i == 2) 
 		   {
@@ -74,7 +74,7 @@ public class MainPageController implements Initializable {
 				content_2.setText(printRow.getDescription());
 				price_2.setText("PRICE: " + printRow.getPrice() + " USD");
 				location_2.setText("LOCATION: " + printRow.getLocation());
-				view_2.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(2));
+				view_2.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(printRow.getID()));
 		   }else if(i == 3)
 		   {
 			    Image img1 = new Image("file:images/3.png",true);
@@ -83,7 +83,7 @@ public class MainPageController implements Initializable {
 				content_3.setText(printRow.getDescription());
 				price_3.setText("PRICE: " + printRow.getPrice() + " USD");
 				location_3.setText("LOCATION: " + printRow.getLocation());
-				view_3.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(3));
+				view_3.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(printRow.getID()));
 		   }else if(i == 4) 
 		   {
 			    Image img1 = new Image("file:images/4.png",true);
@@ -92,7 +92,7 @@ public class MainPageController implements Initializable {
 				content_4.setText(printRow.getDescription());
 				price_4.setText("PRICE: " + printRow.getPrice() + " USD");
 				location_4.setText("LOCATION: " + printRow.getLocation());
-				view_4.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(4));
+				view_4.addEventHandler(MouseEvent.MOUSE_CLICKED, new MyEventHandler(printRow.getID()));
 		   }else 
 		   {
 			   i = 0;
@@ -116,7 +116,7 @@ public class MainPageController implements Initializable {
 		primaryStage.setScene(MainPageScene);
 		primaryStage.setResizable(false);
 		primaryStage.show();*/
-		System.out.println("HELLO");
+		//System.out.println("HELLO");
 		
 	}
 	
